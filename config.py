@@ -1,0 +1,26 @@
+# config.py
+BLUE = (0, 0, 255)
+RED = (255, 0 , 0)
+GREEN = (0, 255, 0)
+YELLOW = (255, 255, 0)
+ORANGE = (255, 165, 0)
+BLACK = (0, 0, 0)
+WHITE = (255, 255, 255)
+
+SLEEP_TIME = 0.08
+
+WINDOW_WIDTH, WINDOW_HEIGHT = 600, 800
+
+BRICK_WIDTH, BRICK_HEIGHT = 50, 20
+BRICKS_PER_ROW = 11
+ROWS_OF_BRICKS = 7
+BRICK_Y_OFFSET = 50  # Set a reasonable offset from the top of the window
+BRICK_GUTTER_WIDTH = 15  # Set a reasonable space between bricks
+
+PADDLE_WIDTH, PADDLE_HEIGHT = 80, BRICK_HEIGHT
+
+BALL_RADIUS = 10
+
+BALL_Y_VELOCITY = 6
+BALL_X_VELOCITY = 6
+
